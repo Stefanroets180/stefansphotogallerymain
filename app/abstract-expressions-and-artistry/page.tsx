@@ -21,7 +21,7 @@ const abstract_expressions_and_artistry_Photos = [
   {
     id: "7",
     title: "Chameleon tail",
-    src: "http://stefanpix.imgix.net/uploads/chameleon2.avif", // Replace with your S3 URL
+    src: "https://stefanpix.imgix.net/uploads/chameleon2.avif", // Replace with your S3 URL
     width: 3744,
     height: 2496,
     alt: "Macro",
@@ -68,7 +68,7 @@ const abstract_expressions_and_artistry_Photos = [
     height: 2400,
     alt: "me",
   },
-]
+];
 
 export default function Abstract_Expressions_and_Artistry_Page() {
   return <MasonryGrid photos={abstract_expressions_and_artistry_Photos} category="Abstract Expressions and Artistry" />

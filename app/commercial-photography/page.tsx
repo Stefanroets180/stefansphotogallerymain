@@ -50,7 +50,7 @@ const commercial_photography_Photos = [
   //   height: 800,
   //   alt: "Family portrait in outdoor setting",
   // },
-]
+];
 
 export default function Commercial_Photography_Page() {
   return <MasonryGrid photos={commercial_photography_Photos} category="Commercial Photography" />

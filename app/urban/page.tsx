@@ -4,7 +4,7 @@ import MasonryGrid from "@/components/masonry-grid"
 const urbanPhotos = [
   {
     id: "1",
-    title: "Environmental Portrait",
+    title: "Calliope Player of Steamboat Natchez",
     src: "https://stefanpix.imgix.net/avif/steam-orgain.avif", // Replace with your S3 URL
     width: 5376,
     height: 3744,
@@ -28,7 +28,7 @@ const urbanPhotos = [
   },
   {
     id: "4",
-    title: "Environmental Portrait",
+    title: "Bluegrass Blues On Bourbon Street",
     src: "https://stefanpix.imgix.net/avif/blue-grass1.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -36,7 +36,7 @@ const urbanPhotos = [
   },
   {
     id: "5",
-    title: "Street Portrait",
+    title: "Bluegrass Blues On Bourbon Street",
     src: "https://stefanpix.imgix.net/avif/blue-grass2.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -44,7 +44,7 @@ const urbanPhotos = [
   },
   {
     id: "6",
-    title: "Cultural Portrait",
+    title: "Bluegrass Blues On Bourbon Street",
     src: "https://stefanpix.imgix.net/avif/blue-grass3.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -98,7 +98,7 @@ const urbanPhotos = [
     height: 3744,
     alt: "Professional studio portrait",
   },
-]
+];
 
 export default function UrbanPage() {
   return <MasonryGrid photos={urbanPhotos} category="Urban" />

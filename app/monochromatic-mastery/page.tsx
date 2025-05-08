@@ -50,7 +50,7 @@ const monochromatic_mastery_Photos = [
     height: 800,
     alt: "Family portrait in outdoor setting",
   },*/
-]
+];
 
 export default function Monochromatic_Mastery_Page() {
   return <MasonryGrid photos={monochromatic_mastery_Photos} category="Monochromatic Mastery" />

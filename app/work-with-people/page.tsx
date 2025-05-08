@@ -178,7 +178,7 @@ const work_with_people_Photos = [
     height: 3744,
     alt: "Family portrait in outdoor setting",
   },
-]
+];
 
 export default function Work_With_People_Page() {
   return <MasonryGrid photos={work_with_people_Photos} category="Work With People" />

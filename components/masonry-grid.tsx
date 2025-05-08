@@ -30,12 +30,12 @@ export default function MasonryGrid({ photos, category }: MasonryGridProps) {
     1100: 3,
     700: 2,
     500: 1,
-  })
+  });
 
   // Handle window resize for responsive columns
   useEffect(() => {
     const handleResize = () => {
-      const width = window.innerWidth
+      const width = window.innerWidth;
       if (width < 500) {
         setBreakpointCols({ ...breakpointCols, default: 1 })
       } else if (width < 700) {
@@ -45,22 +45,22 @@ export default function MasonryGrid({ photos, category }: MasonryGridProps) {
       } else {
         setBreakpointCols({ ...breakpointCols, default: 4 })
       }
-    }
+    };
 
-    window.addEventListener("resize", handleResize)
-    handleResize() // Initial check
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Initial check
 
     return () => {
       window.removeEventListener("resize", handleResize)
     }
-  }, [])
+  }, []);
 
   // Generate optimized imgix URLs
   const getImgixUrl = (src: string, width: number) => {
     // This assumes your S3 images are already set up with imgix
     // Adjust parameters based on your imgix configuration
     return `${src}?w=${width}&auto=format,compress&q=90`
-  }
+  };
 
   return (
     <div className="container mx-auto px-4 py-8">

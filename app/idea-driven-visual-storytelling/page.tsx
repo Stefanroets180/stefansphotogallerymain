@@ -26,7 +26,7 @@ const idea_driven_visual_storytelling_Photos = [
     height: 3744,
     alt: "Dramatic black and white portrait",
   },
-]
+];
 
 export default function Idea_Driven_Visual_Storytelling_Page() {
   return <MasonryGrid photos={idea_driven_visual_storytelling_Photos} category="Abstract Visual Storytelling" />
