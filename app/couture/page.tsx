@@ -4,7 +4,7 @@ import MasonryGrid from "@/components/masonry-grid"
 const couturePhotos = [
   {
     id: "1",
-    title: "Environmental Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/couture4.avif", // Replace with your S3 URL
     width: 5616,
     height: 3744,
@@ -12,7 +12,7 @@ const couturePhotos = [
   },
   {
     id: "2",
-    title: "Studio Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/couture3.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -20,7 +20,7 @@ const couturePhotos = [
   },
   {
     id: "3",
-    title: "Black and White Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/couture5.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -28,7 +28,7 @@ const couturePhotos = [
   },
   {
     id: "4",
-    title: "Environmental Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/couture1.avif", // Replace with your S3 URL
     width: 2995,
     height: 3744,
@@ -36,7 +36,7 @@ const couturePhotos = [
   },
   {
     id: "5",
-    title: "Street Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/couture2.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -44,7 +44,7 @@ const couturePhotos = [
   },
   {
     id: "6",
-    title: "Cultural Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/mod1.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -52,7 +52,7 @@ const couturePhotos = [
   },
   {
     id: "7",
-    title: "Family Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/mod2.avif", // Replace with your S3 URL
     width: 5627,
     height: 3744,
@@ -60,7 +60,7 @@ const couturePhotos = [
   },
   {
     id: "8",
-    title: "Studio Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/mod3.avif", // Replace with your S3 URL
     width: 2491,
     height: 3744,

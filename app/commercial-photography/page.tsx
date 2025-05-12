@@ -4,7 +4,7 @@ import MasonryGrid from "@/components/masonry-grid"
 const commercial_photography_Photos = [
   {
     id: "1",
-    title: "Environmental Portrait",
+    title: "Snus Lucky Strike",
     src: "https://stefanpix.imgix.net/avif/commercial1.avif", // Replace with your S3 URL
     width: 5764,
     height: 3744,
@@ -12,7 +12,7 @@ const commercial_photography_Photos = [
   },
   {
     id: "2",
-    title: "Studio Portrait",
+    title: "Unleash the Beast",
     src: "https://stefanpix.imgix.net/avif/commercial2.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,

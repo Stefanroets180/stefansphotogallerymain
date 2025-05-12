@@ -44,7 +44,7 @@ const work_with_people_Photos = [
   },
   {
     id: "6",
-    title: "Family Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/bw-naledi2.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -52,7 +52,7 @@ const work_with_people_Photos = [
   },
   {
     id: "7",
-    title: "Environmental Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/bw-naledi1.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -60,7 +60,7 @@ const work_with_people_Photos = [
   },
   {
     id: "8",
-    title: "Street Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/portrit-3-of-2.avif", // Replace with your S3 URL
     width: 5827,
     height: 3744,
@@ -68,7 +68,7 @@ const work_with_people_Photos = [
   },
   {
     id: "9",
-    title: "Cultural Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/portit-1-of-2_1.avif", // Replace with your S3 URL
     width: 5616,
     height: 3744,
@@ -76,7 +76,7 @@ const work_with_people_Photos = [
   },
   {
     id: "10",
-    title: "Family Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/bw-sheldon.avif", // Replace with your S3 URL
     width: 5616,
     height: 3744,
@@ -84,7 +84,7 @@ const work_with_people_Photos = [
   },
   {
     id: "11",
-    title: "Studio Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/divan-w.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -92,7 +92,7 @@ const work_with_people_Photos = [
   },
   {
     id: "12",
-    title: "Street Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/divan-w2.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -100,7 +100,7 @@ const work_with_people_Photos = [
   },
   {
     id: "13",
-    title: "Cultural Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/divan-w3.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -108,7 +108,7 @@ const work_with_people_Photos = [
   },
   {
     id: "14",
-    title: "Black and White Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/divan-w4.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -116,7 +116,7 @@ const work_with_people_Photos = [
   },
   {
     id: "15",
-    title: "Studio Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/working1.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -124,7 +124,7 @@ const work_with_people_Photos = [
   },
   {
     id: "16",
-    title: "Family Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/working2.avif", // Replace with your S3 URL
     width: 4992,
     height: 3744,
@@ -132,7 +132,7 @@ const work_with_people_Photos = [
   },
   {
     id: "17",
-    title: "Studio Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/rose-old1.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -140,7 +140,7 @@ const work_with_people_Photos = [
   },
   {
     id: "18",
-    title: "Environmental Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/rose-old2.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -148,7 +148,7 @@ const work_with_people_Photos = [
   },
   {
     id: "19",
-    title: "Street Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/90-1.avif", // Replace with your S3 URL
     width: 2468,
     height: 3744,
@@ -156,7 +156,7 @@ const work_with_people_Photos = [
   },
   {
     id: "20",
-    title: "Cultural Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/90-2.avif", // Replace with your S3 URL
     width: 4992,
     height: 3744,
@@ -164,7 +164,7 @@ const work_with_people_Photos = [
   },
   {
     id: "21",
-    title: "Black and White Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/kat-old1.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -172,7 +172,7 @@ const work_with_people_Photos = [
   },
   {
     id: "22",
-    title: "Family Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/kat-old2.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,

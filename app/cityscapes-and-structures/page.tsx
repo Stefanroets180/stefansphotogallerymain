@@ -4,7 +4,7 @@ import MasonryGrid from "@/components/masonry-grid"
 const cityscapes_and_structures_Photos = [
   {
     id: "1",
-    title: "Studio Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/kerk-moon.avif", // Replace with your S3 URL
     width: 2431,
     height: 3744,
@@ -12,7 +12,7 @@ const cityscapes_and_structures_Photos = [
   },
   {
     id: "2",
-    title: "Environmental Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/building-light.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -20,7 +20,7 @@ const cityscapes_and_structures_Photos = [
   },
   {
     id: "3",
-    title: "Street Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/austin-kerk.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -28,7 +28,7 @@ const cityscapes_and_structures_Photos = [
   },
   {
     id: "4",
-    title: "Cultural Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/new-orlines-kerk.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -36,7 +36,7 @@ const cityscapes_and_structures_Photos = [
   },
   {
     id: "5",
-    title: "Black and White Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/park-new-orlens.avif", // Replace with your S3 URL
     width: 5617,
     height: 3744,

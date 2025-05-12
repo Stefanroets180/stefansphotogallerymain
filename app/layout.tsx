@@ -22,7 +22,6 @@ export default function RootLayout({
   idea_driven_visual_storytelling,
   cityscapes_and_structures,
   live_events,
-  monochromatic_mastery,
   couture,
   commercial_photography,
 }: {
@@ -34,7 +33,6 @@ export default function RootLayout({
   idea_driven_visual_storytelling: React.ReactNode
   cityscapes_and_structures: React.ReactNode
   live_events: React.ReactNode
-  monochromatic_mastery: React.ReactNode
   couture: React.ReactNode
   commercial_photography: React.ReactNode
 }) {
@@ -53,7 +51,6 @@ export default function RootLayout({
               {idea_driven_visual_storytelling}
               {cityscapes_and_structures}
               {live_events}
-              {monochromatic_mastery}
               {couture}
               {commercial_photography}
             </main>

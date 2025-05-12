@@ -33,9 +33,6 @@ export default function Home() {
           <Button asChild size="lg" variant="outline">
             <Link href="/live-events">Live Events</Link>
           </Button>
-          <Button asChild size="lg" variant="outline">
-            <Link href="/monochromatic-mastery">Monochromatic Mastery</Link>
-          </Button>
           <Button asChild size="lg">
             <Link href="/couture">Couture Gallery</Link>
           </Button>
@@ -162,31 +159,7 @@ export default function Home() {
             </Button>
           </div>
         </div>
-
-        <div className="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">
-          <div className="relative h-48">
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-60"></div>
-            <div
-              className="absolute inset-0 bg-cover bg-center"
-              style={{
-                backgroundImage: "url('/placeholder.svg?height=400&width=600')",
-              }}
-            ></div>
-            <div className="absolute bottom-4 left-4 text-white">
-              <h3 className="text-xl font-bold">Monochromatic Mastery</h3>
-            </div>
-          </div>
-          <div className="p-6">
-            <p className="text-muted-foreground mb-4">
-              Encompass abstract photos, like close-ups of objects eg, Macro or Light paintings, Fine art, Composite
-              photography etc. Something a bit more creative different and out there.
-            </p>
-            <Button asChild variant="outline" className="w-full">
-              <Link href="/monochromatic-mastery">View Gallery</Link>
-            </Button>
-          </div>
-        </div>
-
+        
         <div className="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">
           <div className="relative h-48">
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-60"></div>

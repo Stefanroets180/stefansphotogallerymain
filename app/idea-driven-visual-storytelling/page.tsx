@@ -4,7 +4,7 @@ import MasonryGrid from "@/components/masonry-grid"
 const idea_driven_visual_storytelling_Photos = [
   {
     id: "1",
-    title: "Environmental Portrait",
+    title: "Ploting",
     src: "https://stefanpix.imgix.net/avif/storry2.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -12,7 +12,7 @@ const idea_driven_visual_storytelling_Photos = [
   },
   {
     id: "2",
-    title: "Studio Portrait",
+    title: "The Deed is Done",
     src: "https://stefanpix.imgix.net/avif/storry1.avif", // Replace with your S3 URL
     width: 5616,
     height: 3744,
@@ -20,7 +20,7 @@ const idea_driven_visual_storytelling_Photos = [
   },
   {
     id: "3",
-    title: "Black and White Portrait",
+    title: "The End Result",
     src: "https://stefanpix.imgix.net/avif/storry3.avif", // Replace with your S3 URL
     width: 5617,
     height: 3744,

@@ -4,7 +4,7 @@ import MasonryGrid from "@/components/masonry-grid"
 const live_events_Photos = [
   {
     id: "3",
-    title: "Black and White Portrait",
+    title: "Anton Goosen",
     src: "https://stefanpix.imgix.net/avif/band3.avif", // Replace with your S3 URL
     width: 5616,
     height: 3744,
@@ -12,7 +12,7 @@ const live_events_Photos = [
   },
   {
     id: "4",
-    title: "Environmental Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/band10.avif", // Replace with your S3 URL
     width: 2502,
     height: 3744,
@@ -20,7 +20,7 @@ const live_events_Photos = [
   },
   {
     id: "5",
-    title: "Street Portrait",
+    title: "Hog Hoggidy Hog",
     src: "https://stefanpix.imgix.net/avif/band5.avif", // Replace with your S3 URL
     width: 2452,
     height: 3744,
@@ -28,7 +28,7 @@ const live_events_Photos = [
   },
   {
     id: "6",
-    title: "Cultural Portrait",
+    title: "Tidal waves",
     src: "https://stefanpix.imgix.net/avif/band6.avif", // Replace with your S3 URL
     width: 2451,
     height: 3744,
@@ -36,7 +36,7 @@ const live_events_Photos = [
   },
   {
     id: "7",
-    title: "Family Portrait",
+    title: "Light Streak Solo",
     src: "https://stefanpix.imgix.net/avif/band7.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -44,7 +44,7 @@ const live_events_Photos = [
   },
   {
     id: "8",
-    title: "Studio Portrait",
+    title: "",
     src: "https://stefanpix.imgix.net/avif/band8.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
@@ -52,7 +52,7 @@ const live_events_Photos = [
   },
   {
     id: "9",
-    title: "Street Portrait",
+    title: "Zinkplaat",
     src: "https://stefanpix.imgix.net/avif/band9.avif", // Replace with your S3 URL
     width: 5724,
     height: 3744,
@@ -60,7 +60,7 @@ const live_events_Photos = [
   },
   {
     id: "10",
-    title: "Cultural Portrait",
+    title: "Soul-Riot Blunt-Stage Woodstock",
     src: "https://stefanpix.imgix.net/avif/band4.avif", // Replace with your S3 URL
     width: 5849,
     height: 3744,
@@ -68,7 +68,7 @@ const live_events_Photos = [
   },
   {
     id: "11",
-    title: "Black and White Portrait",
+    title: "Soul-Riot Ivan Close-up",
     src: "https://stefanpix.imgix.net/avif/band11.avif", // Replace with your S3 URL
     width: 2733,
     height: 3744,

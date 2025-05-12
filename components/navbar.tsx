@@ -21,7 +21,6 @@ const navLinks = [
       { name: "Abstract Visual Storytelling", path: "/idea-driven-visual-storytelling" },
       { name: "Cityscapes and Structures", path: "/cityscapes-and-structures" },
       { name: "Live Events", path: "/live-events" },
-      { name: "Monochromatic Mastery", path: "/monochromatic-mastery" },
       { name: "Couture", path: "/couture" },
       { name: "Commercial Photography", path: "/commercial-photography" },
     ],
