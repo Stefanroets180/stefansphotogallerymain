@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState, useEffect } from "react"
 import Image from "next/image"
@@ -9,6 +9,7 @@ import "lightgallery/css/lg-zoom.css"
 import "lightgallery/css/lg-thumbnail.css"
 import lgThumbnail from "lightgallery/plugins/thumbnail"
 import lgZoom from "lightgallery/plugins/zoom"
+import React from "react"
 
 interface Photo {
   id: string
@@ -62,35 +63,71 @@ export default function MasonryGrid({ photos, category }: MasonryGridProps) {
     return `${src}?w=${width}&auto=format,compress&q=90`
   };
 
+  // Sort photos by ID (converting to numbers for proper numerical sorting)
+  const sortedPhotos = [...photos].sort((a, b) => {
+    const idA = Number.parseInt(a.id, 10);
+    const idB = Number.parseInt(b.id, 10);
+    return idA - idB
+  });
+
+  // Create dynamic gallery items for LightGallery
+  const dynamicGalleryItems = sortedPhotos.map((photo) => ({
+    src: photo.src,
+    thumb: getImgixUrl(photo.src, 200),
+    subHtml: `<h4>${photo.title}</h4>`,
+  }));
+
+  // Reference to the LightGallery instance
+  const lightGalleryRef = React.useRef<any>(null);
+
+  // Function to open LightGallery at a specific index
+  const openGallery = (index: number) => {
+    if (lightGalleryRef.current) {
+      lightGalleryRef.current.openGallery(index)
+    }
+  };
+
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold mb-8 text-center">{category} Gallery</h2>
-      <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]} selector=".gallery-item">
+      <div className="container mx-auto px-4 py-8">
+        <h2 className="text-3xl font-bold mb-8 text-center">{category} Gallery</h2>
+
+        {/* Hidden LightGallery component for dynamic mode */}
+        <LightGallery
+            speed={500}
+            plugins={[lgThumbnail, lgZoom]}
+            dynamic={true}
+            dynamicEl={dynamicGalleryItems}
+            /*
+                        ref={lightGalleryRef}
+            */
+            onInit={(detail) => {
+              lightGalleryRef.current = detail.instance
+            }}
+        />
+
         <Masonry breakpointCols={breakpointCols} className="flex w-auto -ml-4" columnClassName="pl-4 bg-clip-padding">
-          {photos.map((photo) => (
-            <div
-              key={photo.id}
-              className="gallery-item mb-4 overflow-hidden rounded-lg cursor-pointer transition-all hover:opacity-90"
-              data-src={photo.src}
-              data-sub-html={`<h4>${photo.title}</h4>`}
-            >
-              <div className="relative">
-                <Image
-                  src={getImgixUrl(photo.src, 600) || "/placeholder.svg"}
-                  alt={photo.alt}
-                  width={photo.width}
-                  height={photo.height}
-                  className="w-full h-auto object-cover"
-                  sizes="(max-width: 500px) 100vw, (max-width: 700px) 50vw, (max-width: 1100px) 33vw, 25vw"
-                  placeholder="blur"
-                  blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFdwI2QOQvhAAAAABJRU5ErkJggg=="
-                />
-                <div className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-20 transition-opacity duration-300"></div>
+          {sortedPhotos.map((photo, index) => (
+              <div
+                  key={photo.id}
+                  className="mb-4 overflow-hidden rounded-lg cursor-pointer transition-all hover:opacity-90"
+                  onClick={() => openGallery(index)}
+              >
+                <div className="relative">
+                  <Image
+                      src={getImgixUrl(photo.src, 600) || "/placeholder.svg"}
+                      alt={photo.alt}
+                      width={photo.width}
+                      height={photo.height}
+                      className="w-full h-auto object-cover"
+                      sizes="(max-width: 500px) 100vw, (max-width: 700px) 50vw, (max-width: 1100px) 33vw, 25vw"
+                      placeholder="blur"
+                      blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFdwI2QOQvhAAAAABJRU5ErkJggg=="
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-20 transition-opacity duration-300"></div>
+                </div>
               </div>
-            </div>
           ))}
         </Masonry>
-      </LightGallery>
-    </div>
+      </div>
   )
 }
