@@ -88,7 +88,7 @@ export default function MasonryGrid({ photos, category }: MasonryGridProps) {
   };
 
   return (
-      <div className="container mx-auto px-6 py-12">
+      <div className="container mx-auto px-4 py-8">
         <h2 className="text-3xl font-bold mb-8 text-center">{category} Gallery</h2>
 
         {/* Hidden LightGallery component for dynamic mode */}
