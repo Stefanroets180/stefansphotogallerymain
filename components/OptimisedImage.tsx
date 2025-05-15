@@ -26,7 +26,7 @@ const imgixLoader = ({ src }: imgixLoaderProps) => {
 };
 
 export default function OptimisedImage(props: OptimisedImageProps) {
-  const { src = "https://my-imgix-buckett.s3.us-east-1.amazonaws.com/uploads/pwl-4.webp", alt } = props;
+  const { src = "https://my-imgix-buckett.s3.us-east-1.amazonaws.com/uploads/", alt } = props;
 
   return <Image objectFit="contain" loader={imgixLoader} width={1200} height={800} src={src} alt={alt} />
 }
