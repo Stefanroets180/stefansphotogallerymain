@@ -159,7 +159,7 @@ export default function Home() {
             </Button>
           </div>
         </div>
-        
+
         <div className="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">
           <div className="relative h-48">
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-60"></div>

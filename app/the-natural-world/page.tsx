@@ -154,7 +154,7 @@ const the_natural_world_Photos = [
   //   height: 800,
   //   alt: "Family portrait in outdoor setting",
   // },
-];
+]
 
 export default function The_Natural_World_Page() {
   return <MasonryGrid photos={the_natural_world_Photos} category="The Natural World" />

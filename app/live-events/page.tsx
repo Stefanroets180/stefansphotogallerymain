@@ -74,7 +74,7 @@ const live_events_Photos = [
     height: 3744,
     alt: "Dramatic black and white portrait",
   },
-];
+]
 
 export default function Live_Events_Page() {
   return <MasonryGrid photos={live_events_Photos} category="Live Events" />

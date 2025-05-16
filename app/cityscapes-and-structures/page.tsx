@@ -66,7 +66,7 @@ const cityscapes_and_structures_Photos = [
     height: 3744,
     alt: "Family portrait in outdoor setting",
   },
-];
+]
 
 export default function Cityscapes_and_Structures_Page() {
   return <MasonryGrid photos={cityscapes_and_structures_Photos} category="Cityscapes and Structures" />

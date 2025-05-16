@@ -68,7 +68,7 @@ const abstract_expressions_and_artistry_Photos = [
     height: 2400,
     alt: "me",
   },
-];
+]
 
 export default function Abstract_Expressions_and_Artistry_Page() {
   return <MasonryGrid photos={abstract_expressions_and_artistry_Photos} category="Abstract Expressions and Artistry" />

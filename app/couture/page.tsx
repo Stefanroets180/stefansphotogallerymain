@@ -66,7 +66,7 @@ const couturePhotos = [
     height: 3744,
     alt: "Professional studio portrait",
   },
-];
+]
 
 export default function CouturePage() {
   return <MasonryGrid photos={couturePhotos} category="Couture" />

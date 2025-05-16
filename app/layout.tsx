@@ -5,12 +5,12 @@ import "./globals.css"
 import Navbar from "@/components/navbar"
 import { ThemeProvider } from "@/components/theme-provider"
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Stefan's Photo Gallery",
   description: "A beautiful photo gallery with masonry grid and light-gallery",
-};
+}
 
 export default function RootLayout({
   children,

@@ -42,7 +42,7 @@ const urbanPhotos = [
     height: 3744,
     alt: "Portrait in natural environment",
   },
-  
+
   {
     id: "6",
     title: "New Orleans Jackson Square",
@@ -51,7 +51,7 @@ const urbanPhotos = [
     height: 3744,
     alt: "Dramatic black and white portrait",
   },
-  
+
   {
     id: "7",
     title: "Close-up Guitar-Player Hand",
@@ -84,7 +84,7 @@ const urbanPhotos = [
     height: 3744,
     alt: "Professional studio portrait",
   },
-  
+
   {
     id: "11",
     title: "Newton Newspaper Vendor",
@@ -101,7 +101,7 @@ const urbanPhotos = [
     height: 3744,
     alt: "Professional studio portrait",
   },
-];
+]
 
 export default function UrbanPage() {
   return <MasonryGrid photos={urbanPhotos} category="Urban" />

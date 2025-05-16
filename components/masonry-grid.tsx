@@ -7,7 +7,7 @@ import LightGallery from "lightgallery/react"
 import "lightgallery/css/lightgallery.css"
 import "lightgallery/css/lg-zoom.css"
 import "lightgallery/css/lg-thumbnail.css"
-import lgThumbnail from "lightgallery/plugins/thumbnail"
+// import lgThumbnail from "lightgallery/plugins/thumbnail"
 import lgZoom from "lightgallery/plugins/zoom"
 import React from "react"
 
@@ -94,7 +94,7 @@ export default function MasonryGrid({ photos, category }: MasonryGridProps) {
         {/* Hidden LightGallery component for dynamic mode */}
         <LightGallery
             speed={500}
-            plugins={[lgThumbnail, lgZoom]}
+            plugins={[lgZoom]}//lgThumbnail
             dynamic={true}
             dynamicEl={dynamicGalleryItems}
             /*
