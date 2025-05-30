@@ -130,16 +130,88 @@ const the_natural_world_Photos = [
     height: 3744,
     alt: "Candid street portrait",
   },
+  {
+    id: "17",
+    title: "Hawk one",
+    src: "https://stefanpix.imgix.net/avif/valk1.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Portrait showcasing cultural elements",
+  },
+  {
+    id: "18",
+    title: "Martial Eagle",
+    src: "https://stefanpix.imgix.net/avif/Martial-Eagle-1.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Dramatic black and white portrait",
+  },
+  {
+    id: "19",
+    title: "Lilac Breasted Roller",
+    src: "https://stefanpix.imgix.net/avif/Lilac-Breasted-Roller.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Family portrait in outdoor setting",
+  },
+  {
+    id: "20",
+    title: "African Harrier Hawk",
+    src: "https://stefanpix.imgix.net/avif/African-Harrier-Hawk.avif", // Replace with your S3 URL
+    width: 5616,
+    height: 3744,
+    alt: "Portrait showcasing cultural elements",
+  },
+  {
+    id: "21",
+    title: "Black Headed Oriole",
+    src: "https://stefanpix.imgix.net/avif/Black-Headed-Oriole.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Dramatic black and white portrait",
+  },
+  {
+    id: "22",
+    title: "Common Slender Mongoose",
+    src: "https://stefanpix.imgix.net/avif/Common-Slender-Mongoose.avif", // Replace with your S3 URL
+    width: 5616,
+    height: 3744,
+    alt: "Family portrait in outdoor setting",
+  },
+  {
+    id: "23",
+    title: "Leopard",
+    src: "https://stefanpix.imgix.net/avif/Leopard.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Portrait showcasing cultural elements",
+  },
+  {
+    id: "24",
+    title: "Lion Rock",
+    src: "https://stefanpix.imgix.net/avif/lion-rock.avif", // Replace with your S3 URL
+    width: 5616,
+    height: 3744,
+    alt: "Dramatic black and white portrait",
+  },
+  {
+    id: "25",
+    title: "Framed Giraffes",
+    src: "https://stefanpix.imgix.net/avif/Framed-Giraffes.avif", // Replace with your S3 URL
+    width: 5616,
+    height: 3744,
+    alt: "Family portrait in outdoor setting",
+  },
+  {
+    id: "26",
+    title: "Elephant",
+    src: "https://stefanpix.imgix.net/avif/Elephant.avif", // Replace with your S3 URL
+    width: 5616,
+    height: 3744,
+    alt: "Portrait showcasing cultural elements",
+  },
   // {
-  //   id: "17",
-  //   title: "Cultural Portrait",
-  //   src: "url('/placeholder.svg?height=800&width=1200')", // Replace with your S3 URL
-  //   width: 1600,
-  //   height: 900,
-  //   alt: "Portrait showcasing cultural elements",
-  // },
-  // {
-  //   id: "18",
+  //   id: "27",
   //   title: "Black and White Portrait",
   //   src: "url('/placeholder.svg?height=800&width=1200')", // Replace with your S3 URL
   //   width: 800,
@@ -147,7 +219,7 @@ const the_natural_world_Photos = [
   //   alt: "Dramatic black and white portrait",
   // },
   // {
-  //   id: "19",
+  //   id: "28",
   //   title: "Family Portrait",
   //   src: "url('/placeholder.svg?height=800&width=1200')", // Replace with your S3 URL
   //   width: 1200,
@@ -156,6 +228,7 @@ const the_natural_world_Photos = [
   // },
 ]
 
+// @ts-ignore
 export default function The_Natural_World_Page() {
   return <MasonryGrid photos={the_natural_world_Photos} category="The Natural World" />
 }
