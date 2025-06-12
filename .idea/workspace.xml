@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2a627ef5-c6d1-413f-ac12-165ae0772d11" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/the-natural-world/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/the-natural-world/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
       </set>
     </attachedChunks>
   </component>
@@ -76,7 +75,12 @@
       <workItem from="1747410021679" duration="15630000" />
       <workItem from="1747861036166" duration="1588000" />
       <workItem from="1747990454274" duration="17155000" />
-      <workItem from="1748615787038" duration="2483000" />
+      <workItem from="1748615787038" duration="4752000" />
+      <workItem from="1748857277341" duration="1736000" />
+      <workItem from="1749155040844" duration="2209000" />
+      <workItem from="1749669853088" duration="22000" />
+      <workItem from="1749727142338" duration="78000" />
+      <workItem from="1749727329845" duration="1731000" />
     </task>
     <servers />
   </component>
