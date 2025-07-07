@@ -7,7 +7,7 @@ const OAuth2 = google.auth.OAuth2
 
 // Create OAuth2 client
 const createTransporter = async () => {
-  const oauth2Client = new OAuth2(
+  const oauth2Client = new OAuth2( 
     process.env.GMAIL_CLIENT_ID,
     process.env.GMAIL_CLIENT_SECRET,
     "https://developers.google.com/oauthplayground",
