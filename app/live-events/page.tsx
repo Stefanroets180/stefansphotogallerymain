@@ -20,7 +20,7 @@ const live_events_Photos = [
   },
   {
     id: "5",
-    title: "Hog Hoggidy Hog",
+    title: "Zinkplaat",
     src: "https://stefanpix.imgix.net/avif/band5.avif", // Replace with your S3 URL
     width: 2452,
     height: 3744,
@@ -28,7 +28,7 @@ const live_events_Photos = [
   },
   {
     id: "6",
-    title: "Tidal waves",
+    title: "Tidal Waves",
     src: "https://stefanpix.imgix.net/avif/band6.avif", // Replace with your S3 URL
     width: 2451,
     height: 3744,
@@ -52,7 +52,7 @@ const live_events_Photos = [
   },
   {
     id: "9",
-    title: "Zinkplaat",
+    title: "Hog Hoggidy Hog",
     src: "https://stefanpix.imgix.net/avif/band9.avif", // Replace with your S3 URL
     width: 5724,
     height: 3744,
